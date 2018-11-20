@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a1610201.pesquisaeleitoral.MainActivity">
+
+    <ImageButton
+
+        android:id="@+id/button1"
+        android:layout_width="111dp"
+        android:layout_height="90dp"
+        android:adjustViewBounds="false"
+        android:background="@mipmap/ic_m"
+        android:shape="ring"
+        app:srcCompat="?android:attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/votos1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@mipmap/ic_c"
+        app:srcCompat="?android:attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/votos2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@mipmap/ic_h"
+        android:cropToPadding="false"
+        app:srcCompat="?android:attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/votos3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@mipmap/ic_t"
+        app:srcCompat="?android:attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/votos4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
